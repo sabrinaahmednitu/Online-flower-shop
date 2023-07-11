@@ -82,9 +82,13 @@ height: auto;
 
 .icon{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(228, 226, 226);
+    gap: 30px;
+    background-color: rgb(243, 242, 242);
+}
+.icon-box img{
+    width: 100%;
 }
 
 .icon-box{
@@ -94,9 +98,7 @@ height: auto;
     flex-direction: column;
 }
 
-.icon-box img{
-    width: 50%;
-}
+
 
 .off{
     color: rgb(243, 125, 153);
@@ -127,4 +129,22 @@ position: relative;
     position: absolute;
     top: 40%;
     left: 20%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  padding: 10px ;
+  border-radius: 10px;
+}
+.search button{
+  border: 0;
+  outline: 0;
+  padding: 10px ;
+  border-radius: 10px;
+  background-color: pink;
 }
