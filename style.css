@@ -56,3 +56,25 @@ height: auto;
     margin-top: 35px;
     cursor: pointer;
 }
+
+
+/* featured-flower */
+
+.featured-flower{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.flower-card img{
+    width: 100%; 
+}
+
+
+.flower-card{
+    background-color: rgb(240, 182, 196);
+    border: 1px solid rgb(243, 125, 153) ;
+    border-radius: 10px;
+}
