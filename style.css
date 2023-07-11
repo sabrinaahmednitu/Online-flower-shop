@@ -110,3 +110,21 @@ height: auto;
 .img-box img{
  width: 100%;
 }
+
+.Deals{
+background-image: url('./image/FlowerBackground.png');
+background-position: center ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+position: relative;
+}
+
+.deals-content{
+    width: 55%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
