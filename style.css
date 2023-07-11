@@ -78,3 +78,35 @@ height: auto;
     border: 1px solid rgb(243, 125, 153) ;
     border-radius: 10px;
 }
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 226);
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-box img{
+    width: 50%;
+}
+
+.off{
+    color: rgb(243, 125, 153);
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box img{
+ width: 100%;
+}
