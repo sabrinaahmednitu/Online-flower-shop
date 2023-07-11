@@ -58,6 +58,20 @@ height: auto;
 }
 
 
+@media only screen and (max-width: 600px) {
+   .banner{
+       display: block;
+   }
+   .banner-right{
+       margin-top: 20px;
+   }
+   .banner-right img{
+    width: 80%;
+    margin: auto;
+}
+
+}
+
 /* featured-flower */
 
 .featured-flower{
